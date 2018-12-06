@@ -10,11 +10,13 @@ function draw() {
     m.display();
 }
 
+
 function MickeyMouse {
     
     this.display = function () {
         var x = width/4;
         var y = height / 2;
+    }
     
     background('#FFFAED');
     var x = width / 2;
@@ -60,4 +62,3 @@ function MickeyMouse {
     };
 }
     
-}
