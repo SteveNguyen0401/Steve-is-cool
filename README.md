@@ -18,3 +18,7 @@ I think that this is working
 
 <p>I've never played it. I just heard that it was a good game</p>
 
+*   Candypaint with the white on top
+*   Lambo doors something something something
+*   I forgot the rest of the song
+
