@@ -30,3 +30,8 @@ I think that this is working
 +   this is another type of list
 +   I can't think of anything else to say
 +   words are hard to make
+
+-   I'm not sure how many things I'm supposed to add
+-   I should've payed attention
+-   I mean I did pay attention, but I'm not sure how to check if I added enough
+
