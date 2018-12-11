@@ -35,3 +35,8 @@ I think that this is working
 -   I should've payed attention
 -   I mean I did pay attention, but I'm not sure how to check if I added enough
 
+*   Finals are really hard
+
+    > The week before is really hard because I have so much to do
+    > There is much stress
+
