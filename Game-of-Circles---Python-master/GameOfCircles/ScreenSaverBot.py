@@ -1,8 +1,9 @@
-class JiggleBot:
+class ScreenSaverBot:
     
-    speed = 8
+    xspeed = 8
+    yspeed = 4
     diameter = 25
-    c = color(255,0,255)
+    c = color(0,255,255)
     
     def __init__(self, x, y, team):
         self.x = x
@@ -10,10 +11,12 @@ class JiggleBot:
         self.team = team
         
     def move(self):
-        self.y += random(-self.speed, self.speed)
-        self.x += random(-self.speed, self.speed)
-        self.x = constrain(self.x, 0, width)
-        self.y = constrain(self.y, 0, height)
+        self.x += self.xspeed
+        self.y += self.yspeed
+        if self.x < 0 or self.x > width:
+            self.xspeed
+        if self.y < 0 or self.y > height:
+            self.yspeed *= -1
         
     def display(self):
         fill(self.c)

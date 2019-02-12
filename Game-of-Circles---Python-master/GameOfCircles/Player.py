@@ -5,7 +5,7 @@ class Player:
     
     # instance variables
     left = False
-    right = False
+    right = False  
     up = False
     down = False
     speed = 5
