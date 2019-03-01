@@ -7,6 +7,8 @@ from SpriteManager import sprites
 from JiggleBot import JiggleBot
 from ScreenSaverBot import ScreenSaverBot
 
+import SpriteManager
+
 def setup():
     print "Built with Processing Python version " + platform.python_version()
     
@@ -15,6 +17,8 @@ def setup():
     playerTeam = 1
     enemyTeam = 2
     player = Player(width/2, height/2, playerTeam)
+    SpriteManager.setPlayer(player)
+    SpriteManager.spawn(JiggleBotff(200,50,2))
     
     sprites.append(player)
     sprites.append(Enemy(50, 50, enemyTeam))
