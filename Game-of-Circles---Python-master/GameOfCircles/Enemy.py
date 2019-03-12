@@ -1,6 +1,9 @@
+import SpriteManager
 from Sprite import Sprite
+from Bullet import Bullet
+from Shooter import Shooter
 
-class Enemy(Sprite):
+class Enemy(Shooter, Sprite):
     
     speed = 8
     diameter = 50
@@ -9,8 +12,9 @@ class Enemy(Sprite):
 
         
     def move(self):
+        super(Enemy, self).move()
         self.x += self.speed
         if self.x < 0 or self.x > width:
             self.speed *= -1
-        
- 
+            
+    

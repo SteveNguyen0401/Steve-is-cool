@@ -1,3 +1,6 @@
+import SpriteManager
+from Sprite import Sprite
+
 class ScreenSaverBot:
     
     xspeed = 8

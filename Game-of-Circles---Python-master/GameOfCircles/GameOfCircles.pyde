@@ -18,20 +18,13 @@ def setup():
     enemyTeam = 2
     player = Player(width/2, height/2, playerTeam)
     SpriteManager.setPlayer(player)
-    SpriteManager.spawn(JiggleBotff(200,50,2))
+    SpriteManager.spawn(JiggleBot(200,50,2))
     
     sprites.append(player)
     sprites.append(Enemy(50, 50, enemyTeam))
     sprites.append(Enemy(150, 150, enemyTeam))
     sprites.append(Raindrop(50, 0, enemyTeam))
-    sprites.append(Raindrop(100, 0, enemyTeam))
-    sprites.append(Raindrop(150, 0, enemyTeam))
-    sprites.append(Raindrop(200, 0, enemyTeam))
-    sprites.append(Raindrop(250, 0, enemyTeam))
-    sprites.append(Raindrop(300, 0, enemyTeam))
-    sprites.append(Raindrop(350, 0, enemyTeam))
-    sprites.append(Raindrop(400, 0, enemyTeam))
-    sprites.append(Raindrop(450, 0, enemyTeam))
+
     sprites.append(ScreenSaverBot(275, 0, enemyTeam))
     sprites.append(JiggleBot(275, 0, enemyTeam))
                            
