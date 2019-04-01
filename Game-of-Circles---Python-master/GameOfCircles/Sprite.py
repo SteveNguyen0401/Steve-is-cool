@@ -9,6 +9,8 @@ class Sprite(object):
         self.y = y
         self.team = team
         
+        
+        
     def move():
         pass
         
