@@ -1,5 +1,6 @@
 import SpriteManager
 from Sprite import Sprite
+from Bullet import Bullet
 
 class Player(Sprite):
     
@@ -44,7 +45,7 @@ class Player(Sprite):
         
     def keyDown(self):
         if key == 'f' or key == 'F':
-            sprite.append(Bullet(self.x, self.y, PVector(0, -10), self.team))
+            SpriteManager.spawn(Bullet(self.x, self.y, PVector(0, -10), self.team))
     
         if keyCode == LEFT:
             self.left = True
